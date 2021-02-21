@@ -8,11 +8,11 @@ namespace Chapter_01___The_Strategy_Pattern
         static void Main(string[] args)
         {
             Duck mallard = new MallardDuck();
-            mallard.performQuack();
-            mallard.performFly();
+            Console.WriteLine(mallard.PerformQuack());
+            Console.WriteLine(mallard.PerformFly());
             
-            mallard.flyBehavior = new FlyRocketPowered();
-            mallard.performFly();
+            mallard.FlyBehavior = new FlyRocketPowered();
+            Console.WriteLine(mallard.PerformFly());
         }
     }
 }

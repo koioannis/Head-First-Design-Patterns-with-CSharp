@@ -8,13 +8,13 @@ namespace Chapter_01___The_Strategy_Pattern
   {
     public DecoyDuck()
     {
-      quackBehavior = new MuteQuack();
-      flyBehavior = new FlyNoWay();
+      QuackBehavior = new MuteQuack();
+      FlyBehavior = new FlyNoWay();
     }
 
-    public override void display()
+    public override string Display()
     {
-      Console.WriteLine("I'm a decoy duck");
+      return "I'm a decoy duck";
     }
   }
 }

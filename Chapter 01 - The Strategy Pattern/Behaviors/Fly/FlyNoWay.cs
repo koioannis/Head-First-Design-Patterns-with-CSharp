@@ -4,9 +4,9 @@ namespace Chapter_01___The_Strategy_Pattern.Behaviors.Fly
 {
   public class FlyNoWay : IFlyBehavior
   {
-    public void fly()
+    public string Fly()
     {
-      Console.WriteLine("I can't fly");
+      return "I can't fly";
     }
   }
 }

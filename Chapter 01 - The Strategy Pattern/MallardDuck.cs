@@ -8,13 +8,13 @@ namespace Chapter_01___The_Strategy_Pattern
   {
     public MallardDuck()
     {
-      quackBehavior = new Quack();
-      flyBehavior = new FlyWithWings();
+      QuackBehavior = new Quack();
+      FlyBehavior = new FlyWithWings();
     }
 
-    public override void display()
+    public override string Display()
     {
-      Console.WriteLine("I'm a Mallard duck");
+      return "I'm a Mallard duck";
     }
   }
 }

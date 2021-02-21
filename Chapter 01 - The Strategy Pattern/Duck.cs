@@ -6,29 +6,29 @@ namespace Chapter_01___The_Strategy_Pattern
 {
   public abstract class Duck
   {
-    public IFlyBehavior flyBehavior { get; set; }
-    public IQuackBehavior quackBehavior { get; set;}
+    public IFlyBehavior FlyBehavior { get; set; }
+    public IQuackBehavior QuackBehavior { get; set; }
 
     public Duck()
     {
         
     }
 
-    public void performFly()
+    public string PerformFly()
     {
-      flyBehavior.fly();
+      return FlyBehavior.Fly();
     }
 
-    public void performQuack()
+    public string PerformQuack()
     {
-      quackBehavior.quack();
+      return QuackBehavior.Quacking();
     }
 
-    public void swim()
+    public string Swim()
     {
-      Console.WriteLine("All ducks float, even decoys!");
+      return "All ducks float, even decoys!";
     }
 
-    public abstract void display();
+    public abstract string Display();
   }
 }
