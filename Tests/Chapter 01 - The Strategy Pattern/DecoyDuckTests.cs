@@ -3,7 +3,7 @@ using Chapter_01___The_Strategy_Pattern.Behaviors.Fly;
 using Chapter_01___The_Strategy_Pattern.Behaviors.Quack;
 using Xunit;
 
-namespace Tests
+namespace Tests.Chapter_01___The_Strategy_Pattern
 {
     public class DecoyDuckTests
     {
@@ -29,7 +29,7 @@ namespace Tests
         [Fact]
         public void DisplayShouldDisplayADecoyDuck()
         {
-            Assert.Equal("I'm a Decoy duck", _sut.Display());
+            Assert.Equal("I'm a decoy duck", _sut.Display());
         }
 
         [Fact]

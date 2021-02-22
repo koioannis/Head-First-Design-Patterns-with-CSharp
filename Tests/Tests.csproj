@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Chapter 01 - The Strategy Pattern\Chapter 01 - The Strategy Pattern.csproj" />
+      <ProjectReference Include="..\Chapter 02 - The Observer Pattern\Chapter 02 - The Observer Pattern.csproj" />
     </ItemGroup>
 
 </Project>

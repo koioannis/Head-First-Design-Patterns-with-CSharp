@@ -3,7 +3,7 @@ using Chapter_01___The_Strategy_Pattern.Behaviors.Fly;
 using Chapter_01___The_Strategy_Pattern.Behaviors.Quack;
 using Xunit;
 
-namespace Tests
+namespace Tests.Chapter_01___The_Strategy_Pattern
 {
     public class MallardDuckTest
     {

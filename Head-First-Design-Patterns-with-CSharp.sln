@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 01 - The Strategy P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 02 - The Observer Pattern", "Chapter 02 - The Observer Pattern\Chapter 02 - The Observer Pattern.csproj", "{EEC62803-B765-48D5-9D44-66DBF85A01CD}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +46,17 @@ Global
 		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|x64.Build.0 = Release|Any CPU
 		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|x86.ActiveCfg = Release|Any CPU
 		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|x86.Build.0 = Release|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|x64.Build.0 = Debug|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|x86.Build.0 = Debug|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|x64.ActiveCfg = Release|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|x64.Build.0 = Release|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
