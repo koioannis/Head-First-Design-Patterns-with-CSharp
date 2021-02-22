@@ -45,7 +45,6 @@
         <Compile Include="Observers\IObserver.cs" />
         <Compile Include="Observers\StatisticsDisplay.cs" />
         <Compile Include="Program.cs" />
-        <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Subjects\ISubject.cs" />
         <Compile Include="Subjects\WeatherData.cs" />
     </ItemGroup>
