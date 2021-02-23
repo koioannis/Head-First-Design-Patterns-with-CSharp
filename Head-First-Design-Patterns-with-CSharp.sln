@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 02 - The Observer Pattern", "Chapter 02 - The Observer Pattern\Chapter 02 - The Observer Pattern.csproj", "{EEC62803-B765-48D5-9D44-66DBF85A01CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 03 - The Decorator Pattern", "Chapter 03 - The Decorator Pattern\Chapter 03 - The Decorator Pattern.csproj", "{C269FB1E-333C-4CA5-9677-744005DF4AC3}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +60,17 @@ Global
 		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|x64.Build.0 = Release|Any CPU
 		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|x86.ActiveCfg = Release|Any CPU
 		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Release|x86.Build.0 = Release|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Debug|x64.Build.0 = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Debug|x86.Build.0 = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Release|x64.ActiveCfg = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Release|x64.Build.0 = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Release|x86.ActiveCfg = Debug|Any CPU
+		{C269FB1E-333C-4CA5-9677-744005DF4AC3}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
