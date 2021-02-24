@@ -23,6 +23,7 @@
       <ProjectReference Include="..\Chapter 01 - The Strategy Pattern\Chapter 01 - The Strategy Pattern.csproj" />
       <ProjectReference Include="..\Chapter 02 - The Observer Pattern\Chapter 02 - The Observer Pattern.csproj" />
       <ProjectReference Include="..\Chapter 03 - The Decorator Pattern\Chapter 03 - The Decorator Pattern.csproj" />
+      <ProjectReference Include="..\Chapter 04 - The Factory Pattern\Chapter 04 - The Factory Pattern.csproj" />
     </ItemGroup>
 
 </Project>
