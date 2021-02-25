@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 01 - The Strategy Pattern", "Chapter 01 - The Strategy Pattern\Chapter 01 - The Strategy Pattern.csproj", "{5EB93BB4-3B0B-43AB-BC76-FAAF0591663E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 02 - The Observer Pattern", "Chapter 02 - The Observer Pattern\Chapter 02 - The Observer Pattern.csproj", "{EEC62803-B765-48D5-9D44-66DBF85A01CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 03 - The Decorator Pattern", "Chapter 03 - The Decorator Pattern\Chapter 03 - The Decorator Pattern.csproj", "{C269FB1E-333C-4CA5-9677-744005DF4AC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 04 - The Factory Pattern", "Chapter 04 - The Factory Pattern\Chapter 04 - The Factory Pattern.csproj", "{F203D480-1061-4D84-848A-B728A7F6ED9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 05 - The Singleton Pattern", "Chapter 05 - The Singleton Pattern\Chapter 05 - The Singleton Pattern.csproj", "{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -38,18 +38,6 @@ Global
 		{5EB93BB4-3B0B-43AB-BC76-FAAF0591663E}.Release|x64.Build.0 = Release|Any CPU
 		{5EB93BB4-3B0B-43AB-BC76-FAAF0591663E}.Release|x86.ActiveCfg = Release|Any CPU
 		{5EB93BB4-3B0B-43AB-BC76-FAAF0591663E}.Release|x86.Build.0 = Release|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Debug|x64.Build.0 = Debug|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Debug|x86.Build.0 = Debug|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|x64.ActiveCfg = Release|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|x64.Build.0 = Release|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|x86.ActiveCfg = Release|Any CPU
-		{72C8A94D-CCF1-4045-8F2F-56A7154A2BB0}.Release|x86.Build.0 = Release|Any CPU
 		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC62803-B765-48D5-9D44-66DBF85A01CD}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -86,5 +74,17 @@ Global
 		{F203D480-1061-4D84-848A-B728A7F6ED9F}.Release|x64.Build.0 = Release|Any CPU
 		{F203D480-1061-4D84-848A-B728A7F6ED9F}.Release|x86.ActiveCfg = Release|Any CPU
 		{F203D480-1061-4D84-848A-B728A7F6ED9F}.Release|x86.Build.0 = Release|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Debug|x64.Build.0 = Debug|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Debug|x86.Build.0 = Debug|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|x64.ActiveCfg = Release|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|x64.Build.0 = Release|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|x86.ActiveCfg = Release|Any CPU
+		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
