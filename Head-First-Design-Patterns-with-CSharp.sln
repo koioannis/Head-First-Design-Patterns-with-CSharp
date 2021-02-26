@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 04 - The Factory Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 05 - The Singleton Pattern", "Chapter 05 - The Singleton Pattern\Chapter 05 - The Singleton Pattern.csproj", "{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 06 - The Command Pattern", "Chapter 06 - The Command Pattern\Chapter 06 - The Command Pattern.csproj", "{884CBA9A-4662-4A07-BB36-42AD4462381D}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,5 +88,17 @@ Global
 		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|x64.Build.0 = Release|Any CPU
 		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|x86.ActiveCfg = Release|Any CPU
 		{40B19168-542E-44E0-B2B2-CBFFCFF31FEC}.Release|x86.Build.0 = Release|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Debug|x64.Build.0 = Debug|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Debug|x86.Build.0 = Debug|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Release|x64.ActiveCfg = Release|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Release|x64.Build.0 = Release|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Release|x86.ActiveCfg = Release|Any CPU
+		{884CBA9A-4662-4A07-BB36-42AD4462381D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
