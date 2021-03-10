@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 06 - The Command Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 07 - The Adapter and Facade Patterns", "Chapter 07 - The Adapter and Facade Patterns\Chapter 07 - The Adapter and Facade Patterns.csproj", "{2A77126F-8BDF-4CB1-8CC9-B01BF0C9FDAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 08 - The Template Method Pattern", "Chapter 08 - The Template Method Pattern\Chapter 08 - The Template Method Pattern.csproj", "{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,5 +116,17 @@ Global
 		{2A77126F-8BDF-4CB1-8CC9-B01BF0C9FDAF}.Release|x64.Build.0 = Release|Any CPU
 		{2A77126F-8BDF-4CB1-8CC9-B01BF0C9FDAF}.Release|x86.ActiveCfg = Release|Any CPU
 		{2A77126F-8BDF-4CB1-8CC9-B01BF0C9FDAF}.Release|x86.Build.0 = Release|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Debug|x64.Build.0 = Debug|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Debug|x86.Build.0 = Debug|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Release|x64.ActiveCfg = Release|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Release|x64.Build.0 = Release|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDDF223B-C2AB-4766-BAB9-A156A1CC2DB2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
