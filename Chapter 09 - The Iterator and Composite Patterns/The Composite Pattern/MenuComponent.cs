@@ -7,7 +7,7 @@ namespace Chapter_09___The_Iterator_and_Composite_Patterns.The_Composite_Pattern
         public virtual string Name => throw new NotSupportedException();
         public virtual string Description => throw new NotSupportedException();
         public virtual double Price => throw new NotSupportedException();
-        public virtual bool IsVegeterian => throw new NotSupportedException();
+        public virtual bool IsVegetarian => throw new NotSupportedException();
 
         public virtual void Add(MenuComponent menuComponent)
         {

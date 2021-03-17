@@ -36,7 +36,7 @@ namespace Chapter_09___The_Iterator_and_Composite_Patterns.The_Composite_Pattern
             Console.Write($"\n {Name}");
             Console.WriteLine($", {Description}");
             Console.WriteLine("-------------------------");
-
+            
             foreach (var component in _menuComponents)
             {
                 component.Print();
