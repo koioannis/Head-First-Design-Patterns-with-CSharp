@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 08 - The Template M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 09 - The Iterator and Composite Patterns", "Chapter 09 - The Iterator and Composite Patterns\Chapter 09 - The Iterator and Composite Patterns.csproj", "{E6C3E423-9E30-4659-9950-FD3B366F3E1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 10 - The State Pattern", "Chapter 10 - The State Pattern\Chapter 10 - The State Pattern.csproj", "{846A652E-CF17-4A7E-9503-83E6CEC1DB27}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,5 +144,17 @@ Global
 		{E6C3E423-9E30-4659-9950-FD3B366F3E1C}.Release|x64.Build.0 = Release|Any CPU
 		{E6C3E423-9E30-4659-9950-FD3B366F3E1C}.Release|x86.ActiveCfg = Release|Any CPU
 		{E6C3E423-9E30-4659-9950-FD3B366F3E1C}.Release|x86.Build.0 = Release|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Debug|x64.Build.0 = Debug|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Debug|x86.Build.0 = Debug|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Release|x64.ActiveCfg = Release|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Release|x64.Build.0 = Release|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Release|x86.ActiveCfg = Release|Any CPU
+		{846A652E-CF17-4A7E-9503-83E6CEC1DB27}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
