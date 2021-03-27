@@ -5,7 +5,7 @@ namespace Chapter_02___The_Observer_Pattern.Observers
 {
     public class HeatIndexDisplay : IObserver, IDisplayElement
     {
-        private float HeatIndex { get; set; } = 0.0f;
+        private double HeatIndex { get; set; } = 0.0f;
 
         private readonly WeatherData _weatherData;
 
@@ -25,9 +25,9 @@ namespace Chapter_02___The_Observer_Pattern.Observers
             return $"Heat index is {HeatIndex}";
         }
 
-        private float ComputeHeadIndex(float temp, float humidity)
+        private double ComputeHeadIndex(double temp, double humidity)
         {
-            float heatIndex = (float)((16.923 + (0.185212 * temp) + 
+            var heatIndex = (double)((16.923 + (0.185212 * temp) + 
                (5.37941 * humidity) - (0.100254 * temp * humidity) +
                (0.00941695 * (temp * temp)) + 
                (0.00728898 * (humidity * humidity)) +

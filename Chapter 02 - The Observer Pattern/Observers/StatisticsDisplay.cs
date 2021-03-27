@@ -4,11 +4,11 @@ namespace Chapter_02___The_Observer_Pattern.Observers
 {
     public class StatisticsDisplay : IObserver, IDisplayElement
     {
-        private float MaxTemp { get; set; } = 0.0f;
+        private double MaxTemp { get; set; } = 0.0f;
 
-        private float MinTemp { get; set; } = 200f;
+        private double MinTemp { get; set; } = 200f;
 
-        private float TempSum { get; set; } = 0.0f;
+        private double TempSum { get; set; } = 0.0f;
         
         private int NumReadings { get; set; }
 
@@ -23,7 +23,7 @@ namespace Chapter_02___The_Observer_Pattern.Observers
 
         public void Update()
         {
-            float temp = _weatherData.Temp;
+            double temp = _weatherData.Temp;
             TempSum += temp;
             NumReadings++;
 

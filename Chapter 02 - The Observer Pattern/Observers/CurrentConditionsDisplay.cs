@@ -4,11 +4,11 @@ namespace Chapter_02___The_Observer_Pattern.Observers
 {
     public class CurrentConditionsDisplay : IObserver, IDisplayElement
     {
-        private float Temp { get; set; }
+        private double Temp { get; set; }
 
+        private double Humidity { get; set; }
+        
         private readonly WeatherData _weatherData;
-
-        private float Humidity { get; set; }
 
         public CurrentConditionsDisplay(WeatherData weatherData)
         {

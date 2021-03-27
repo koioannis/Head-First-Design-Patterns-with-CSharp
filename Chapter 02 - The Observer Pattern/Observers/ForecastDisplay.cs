@@ -6,9 +6,9 @@ namespace Chapter_02___The_Observer_Pattern.Observers
 {
     public class ForecastDisplay : IObserver, IDisplayElement
     {
-        private float CurrentPressure { get; set; } = 29.0f;
+        private double CurrentPressure { get; set; } = 29.0f;
 
-        public float LastPressure { get; set; }
+        private double LastPressure { get; set; }
 
         private readonly WeatherData _weatherData;
 
@@ -30,8 +30,7 @@ namespace Chapter_02___The_Observer_Pattern.Observers
 
         private string CreateForecastString()
         {
-            const float minNormal = 2.2250738585072014E-308f;
-            string forecast = "Forecast:";
+            const string forecast = "Forecast:";
 
             if (CurrentPressure > LastPressure)
                 return $"{forecast} Improving weather on the way!";

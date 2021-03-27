@@ -6,9 +6,9 @@ namespace Chapter_02___The_Observer_Pattern.Subjects
     public class WeatherData : ISubject
     {
         private readonly List<IObserver> _observers;
-        public float Temp { get; private set; }
-        public float Humidity { get; private set; }
-        public float Pressure { get; private set; }
+        public double Temp { get; private set; }
+        public double Humidity { get; private set; }
+        public double Pressure { get; private set; }
         
         
         public WeatherData()
@@ -39,7 +39,7 @@ namespace Chapter_02___The_Observer_Pattern.Subjects
             NotifyObservers();
         }
 
-        public void SetMeasurements(float temp, float humidity, float pressure)
+        public void SetMeasurements(double temp, double humidity, double pressure)
         {
             Temp = temp;
             Humidity = humidity;
