@@ -1,7 +1,7 @@
 ﻿# Head-First-Design-Patterns-with-CSharp
 Examples and exercises based on [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/) that I wrote as I was working through the book.
 
-Note that some examples may exactly as the book's.
+Note that some examples may not be exactly as the book's.
 ## Patterns Covered
 * [The Strategy Pattern](https://github.com/koioannis/Head-First-Design-Patterns-with-CSharp/tree/main/Chapter%2001%20-%20The%20Strategy%20Pattern)
 * [The Observer Pattern](https://github.com/koioannis/Head-First-Design-Patterns-with-CSharp/tree/main/Chapter%2002%20-%20The%20Observer%20Pattern)
